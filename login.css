@@ -1,0 +1,55 @@
+body {
+    background: fixed url("https://cdn.quotesgram.com/img/22/12/1062556498-25klawn.jpg");
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+    color:white;
+}
+.main{
+    border: solid grey;
+    border-radius: 10px ;
+    width: 300px;
+    padding: 40px;
+    top: 30%;
+    left: 37%;
+    position: absolute;
+    transition: translate(-50% -50%);
+    text-align: center;
+    background: #000;
+}
+input{
+    text-align: center;
+    border: 0;
+    color: white;
+    border: 5px solid black;
+    border-radius: 24px;
+    background: none;
+    font-weight: 4px;
+    margin: 20px auto;
+    padding: 14px 30px;
+    display: block;
+    border: 2px solid white;
+    transition: 0.25s;
+
+}
+input::before{
+    color: white;
+    border: 5px solid black;
+    border-radius: 24px;
+    background: none;
+    font-weight: 4px;
+    margin: 20px auto;
+    padding: 14px 30px;
+    display: block;
+    border: 2px solid white;
+    transition: 0.25s;
+    outline: none;
+
+}
+input:hover {
+    width: 200px;
+    border: 2px solid grey;
+    transition: 0.5s;
+}
+

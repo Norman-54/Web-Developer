@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.text {
+    border: 1px  solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    size: 40px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-position: top;
+    background-size:1500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.255), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/originals/bc/79/a4/bc79a4fe9aa1f6e56f5d00a01ad0dae2.jpg");
+    background-size: cover;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin: 10px auto;
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+.card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 {
+    background: url("https://avatars.mds.yandex.net/i?id=12b695b00cd6b144a77a972c7596470b-3966351-images-thumbs&n=13") center center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url("https://avatars.mds.yandex.net/i?id=12b695b00cd6b144a77a972c7596470b-3966351-images-thumbs&n=13") top center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fab {
+    opacity: 1;
+}
+
+.card1 {
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/171/195/desktop-wallpaper-chris-bumstead-on-instagram-something-special-is-coming-c-bum.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/171/195/desktop-wallpaper-chris-bumstead-on-instagram-something-special-is-coming-c-bum.jpg") top center no-repeat;
+    background-size: 600px;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
+
+.card1:hover .fab {
+    opacity: 1;
+}
+
+.card2 {
+    background: url("https://wallpaperaccess.com/full/1428034.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover {
+    background: url("https://wallpaperaccess.com/full/1428034.jpg") top center no-repeat;
+    background-size: 600px;
+}
+
+.card2:hover h2 {
+    opacity: 1;
+}
+
+.card2:hover .fab {
+    opacity: 1;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fab {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icons {
+    position: absolute;
+    fill: #ffffff;
+    color: #ffffff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+}
+
+
+
+body {
+    font-family: 'Orbitron';
+}
+.text{
+    text-align: center;
+}
+h1 {
+    color: white;
+} 
+.text2{
+    margin: 1%;
+
+    top: 10%;
+    right: 60%;
+}
+p, h3 {
+    color: white;
+    font-family: 'Oswald';
+}
+img {
+    text-align: center;
+}
+.align{
+    left: 30%;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 190px;
+}
+.btn {
+    text-align: center;
+    background-color:  #34495e00;
+    color: white;
+}
+
+nav {
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background: rgb(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0 .1);
+    left: 58%;
+
+}
+
+nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+nav a:nth-child(1) {
+    width: 100px;
+
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0px;
+}
+
+nav a:nth-child(2) {
+    width: 110px;
+
+}
+
+nav a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 105px;
+}
+
+nav a:nth-child(3) {
+    width: 100px;
+
+}
+
+nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+}
+
+nav a:nth-child(4) {
+    width: 160px;
+}
+
+nav a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+}
+
+nav a:nth-child(5) {
+    width: 120px;
+}
+
+nav a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 470px;
+}
+.p{
+    position: absolute;
+    top: 100%;
+}
+.address{
+    text-align: justify;
+}

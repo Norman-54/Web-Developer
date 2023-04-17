@@ -1,0 +1,242 @@
+@media (prefers-reduced-motion: no-preference) {
+    .square {
+      animation-name: wipe-enter;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: black;
+    transform: scale(1);
+    transform-origin: 0 0;
+    font-family: 'Orbitron';
+}
+
+.text {
+    text-align: center;
+}
+
+h1,h2 {
+    color: white;
+}
+
+.text2 {
+    margin: 1%;
+    top: 10%;
+    right: 60%;
+}
+
+p,
+h3 {
+    color: white;
+    font-family: 'Oswald';
+}
+
+img {
+    text-align: center;
+}
+
+.align {
+    left: 30%;
+}
+
+button {
+    transform: scale(1);
+    transform-origin: 0 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 190px;
+}
+
+.btn {
+    transform: scale(1);
+    transform-origin: 0 0;
+    text-align: center;
+    background-color: #34495e00;
+    color: white;
+}
+
+nav {
+    transform: scale(1);
+    transform-origin: 0 0;
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background: rgb(107, 107, 107);
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0 .1);
+    left: 58%;
+
+}
+
+nav a {
+    transform: scale(1);
+    transform-origin: 0 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation {
+    transform: scale(1);
+    transform-origin: 0 0;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+nav a:nth-child(1) {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 100px;
+    color: black;
+
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 100px;
+    left: 0px;
+}
+
+nav a:nth-child(2) {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 110px;
+    color: black;
+
+}
+
+nav a:nth-child(2):hover~.animation {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 100px;
+    left: 105px;
+}
+
+nav a:nth-child(3) {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 100px;
+    color: black;
+
+}
+
+nav a:nth-child(3):hover~.animation {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 100px;
+    left: 210px;
+}
+
+nav a:nth-child(4) {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 160px;
+    color: black;
+}
+
+nav a:nth-child(4):hover~.animation {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 160px;
+    left: 310px;
+}
+
+nav a:nth-child(5) {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 120px;
+    color: black;
+
+}
+
+nav a:nth-child(5):hover~.animation {
+    transform: scale(1);
+    transform-origin: 0 0;
+    width: 120px;
+    left: 470px;
+}
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.255), rgba(0, 0, 0, 0.7)), url("https://wallpaperset.com/w/full/a/3/d/45475.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row {
+
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+address{
+    text-align: center;
+}
